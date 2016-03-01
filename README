@@ -9,12 +9,12 @@ Comments: make
 |TESTCASES|
 +---------+
 
-Please run the scripts provided by the professor. 
+Commands to run - 
 
-(A) Hexdump
-(B) Base64 Encode
-(C) Base64 Decode 
-(D) Base64 Encode and then Decode using student program 
+        hw1 hexdump [file]
+        hw1 enc-base64 [file]
+        hw1 dec-base64 [file]
+
 
 
 run make clean to remove .o and the executables.
