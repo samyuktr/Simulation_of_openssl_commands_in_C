@@ -1,0 +1,43 @@
+
++-------+
+| BUILD |
++-------+
+
+Comments: make
+
++---------+
+|TESTCASES|
++---------+
+
+Please run the scripts provided by the professor. 
+
+(A) Hexdump : 15 out of 15 test cases pass.
+
+(B) Base64 Encode : 11 out of 11 test cases pass.
+
+(C) Base64 Decode : 11 out of 11 test cases pass.
+        
+(D) Base64 Encode and then Decode using student program : 10 out of 10 test cases pass.
+
+There are no segmentation faults. 
+There are 4 unhandled warnings.
+
+Bad behavior for random input : 
+                Please enter the following commands and press enter and then enter random input values. Will have to press ^Z to exit.
+                ./hw1 hexdump
+                ./hw1 enc-base64
+                ./hw1 dec-base64
+
+run make clean to remove .o and the executables.
+
+
+Files in the zip: 
+main.c - contains main program.
+function.h - header file.
+encode.c - file with function definitions for base64 encoding.
+decode.c - file with function definitions for b64 decoding. 
+set1.c - file with function definitions for hexdump.
+Makefile 
+        
+        
+ 
